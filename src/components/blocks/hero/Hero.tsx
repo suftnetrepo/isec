@@ -1,45 +1,45 @@
 import NextLink from "@/components/reuseable/links/NextLink";
 // CUSTOM UTILS
-import { slideInDownAnimate } from "@/utils/animation";
+import { fadeInAnimate, slideInDownAnimate } from "@/utils/animation";
 
-export default function Hero() {
+export default function Hero18() {
   return (
-    <section className="wrapper bg-soft-primary">
-      <div className="container pt-10 pb-15 pt-md-5 pb-md-20">
-        <div className="row gx-lg-8 gx-xl-12 gy-10 mb-5 align-items-center">
-          <div className="col-md-10  offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0">
-            <h1 className="display-1 mb-5 ps-2 mx-md-n5 mx-lg-0" style={slideInDownAnimate("600ms")}>
-              Spotless. Fresh. Reliable
-            </h1>
+    <section className="wrapper bg-light">
+      <div className="container-card">
+        <div
+          className="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 mt-2 mb-5"
+          style={{ backgroundImage: "url(/img/photos/bg22.png)" }}>
+          <div className="card-body py-14 px-0">
+            <div className="container">
+              <div className="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
+                <div className="col-lg-6">
+                  <h1 className="display-2 mb-4 me-xl-5 me-xxl-0" style={slideInDownAnimate("900ms")}>
+                    Networking <span className="text-gradient gradient-1">solutions</span> for worldwide communication
+                  </h1>
 
-            <p className="lead ps-2 fs-lg mb-7" style={slideInDownAnimate("900ms")}>
-              We specialize in residential, commercial and deep cleaning services. We love to make your space shine like new.
-            </p>
+                  <p className="lead fs-23 lh-sm mb-7 pe-xxl-15" style={slideInDownAnimate("1200ms")}>
+                    We're a company that focuses on establishing long-term relationships with customers.
+                  </p>
 
-            <div className="d-flex ps-2 justify-content-center justify-content-lg-start">
-              <span style={slideInDownAnimate("1200ms")}>
-                <NextLink href="#" title="Book Service" className="btn btn-primary rounded me-2" />
-              </span>
+                  <div style={slideInDownAnimate("1500ms")}>
+                    <NextLink title="Explore Now" href="#" className="btn btn-lg btn-gradient gradient-1 rounded" />
+                  </div>
+                </div>
 
-              <span style={slideInDownAnimate("1500ms")}>
-                <NextLink href="#" title="Learn More" className="btn btn-yellow rounded" />
-              </span>
+                <div className="col-lg-6">
+                  <img
+                    alt="demo"
+                    className="img-fluid mb-n18"
+                    src="/img/illustrations/3d6.png"
+                    srcSet="/img/illustrations/3d6@2x.png 2x"
+                    style={fadeInAnimate("300ms")}
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div className="col-lg-7" style={slideInDownAnimate("0ms")}>
-            <figure>
-              <img
-                alt="illustration"
-              
-                src="/img/sparkel/1.png"
-                srcSet="/img/sparkel/8.png 2x"
-              />
-            </figure>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
