@@ -8,9 +8,9 @@ interface DropdownToggleLinkProps
 // ==========================================================
 
 const DropdownToggleLink: FC<DropdownToggleLinkProps> = (props) => {
-  const { title, ...others } = props;
+  const { title, href, ...others } = props;
   return (
-    <a href="#" data-bs-toggle="dropdown" className="dropdown-item dropdown-toggle" {...others}>
+    <a data-bs-toggle="dropdown" className="dropdown-item dropdown-toggle" {...others}>
       {title}
     </a>
   );

@@ -1,15 +1,17 @@
 import { Fragment } from "react";
 import { serviceData } from "@/data/services";
 
-export function Services() {
+export function Services({ showTitle = true }) {
   return (
     <Fragment>
-      <div className="row text-center">
-        <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-          <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">Our Features</h2>
-          <h3 className="display-4 mb-9 px-xl-11">The service we offer is specifically designed to meet your needs.</h3>
+      {showTitle && (
+        <div className="row text-center mb-10">
+          <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">Our Services</h2>
+            <h3 className="fs-24 lead mb-9 px-xl-11">We deliver fully integrated fire and security solutions — from concept to long-term support — ensuring continuous protection for what matters most.</h3>
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="row gy-8 mb-17">
         {serviceData.map(({ id, title, description, Icon }) => (

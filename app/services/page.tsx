@@ -19,18 +19,29 @@ const Home: NextPage = () => {
       </header>
 
       <main className="content-wrapper">
-        <Hero />
+        <section className="section-frame overflow-hidden">
+          <div className="wrapper bg-gray">
+            <div className="container py-13 py-md-13 text-center">
+              <div className="row">
+                <div className="col-lg-10 col-xxl-8 mx-auto">
+                  <h3 className="display-4 mb-3 text-center">Smart Safety Solutions</h3>
+                  <p className="lead fs-lg text-center">
+              Combining advanced technology with expert engineering, we deliver end-to-end fire and security systems built for modern protection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         <section className="wrapper">
-          <div className="container pt-14 ">
-            <Services />
+          <div className="container pt-17">
+            <Services showTitle={false} />
           </div>
         </section>
-        <section className="wrapper bg-light">
-          <Contact />
         </section>
       </main>
 
-      <Footer />
+      <Footer backgroundColor='bg-gray' />
     </Fragment>
   );
 };

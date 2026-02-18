@@ -28,7 +28,8 @@ export function Contact() {
 
               <div>
                 <h5 className="mb-1">Address</h5>
-                <address>2 Salinger walk Spalding </address>
+                <address>56, Boater Drive, Houghton Regis
+                  Luton LU5 6SQ </address>
               </div>
             </div>
 
@@ -39,8 +40,9 @@ export function Contact() {
 
               <div>
                 <h5 className="mb-1">Phone</h5>
-                <p> +44 07466825028
-</p>
+                <p> +44 07392 463 265 ,
+                  07442 055 760
+                </p>
               </div>
             </div>
 
@@ -52,8 +54,8 @@ export function Contact() {
               <div>
                 <h5 className="mb-1">E-mail</h5>
                 <p className="mb-0">
-                  <a href="mailto:info@ivera.co.uk" className="link-body">
-                    info@ivera.co.uk
+                  <a href="mailto:info@isecuk.com" className="link-body">
+                    info@isecuk.com, abiodunoyenigba@isecuk.com
                   </a>
                 </p>
               </div>

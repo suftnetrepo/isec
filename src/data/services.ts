@@ -35,42 +35,41 @@ export const serviceData = [
     id: 1,
     linkUrl: '#',
     Icon: Script,
-    title: 'Software & Integration',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    title: 'Fire & Life Safety Systems',
+    description: `We adopt the best engineering principles and industrial standards and codes in designs, installation and commissioning of fire alarms for both residential and commercial buildings.`
   },
   {
     id: 2,
     linkUrl: '#',
     Icon: Verify,
-    title: 'Network Security',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    title: 'Access Control Systems',
+    description: `Partnered with high-end OEMs for supply and installation of access control systems, replacing traditional keys with advanced electronic credentials.`
   },
   {
     id: 3,
     linkUrl: '#',
     Icon: CloudNetwork,
-    title: 'Cloud Services',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    title: 'CCTV Surveillance',
+    description: `Bespoke CCTV systems designed to meet client needs using latest technology and cameras suited to individual requirements.`
   },
   {
     id: 4,
     linkUrl: '#',
     Icon: Director,
-    title: 'Wireless Networking',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-  },
+    title: 'Cause & Effect Testing',
+    description: `Systematic testing and validation of fire and security system components to ensure proper functionality, compliance, and reliability under various operational scenarios.`  },
   {
     id: 5,
     linkUrl: '#',
     Icon: Setting,
-    title: '@/iT Solutions',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    title: 'Comprehensive Maintenance Services',
+    description: `We provide comprehensive maintenance services to ensure the optimal performance and longevity of your fire and security systems.`
   },
   {
     id: 6,
     linkUrl: '#',
     Icon: Server,
-    title: 'Server Configuration',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    title: '24/7 Emergency Callout Services',
+    description: `Our team is available around the clock to respond to emergencies, ensuring the safety and security of your premises at all times.`
   }
 ];

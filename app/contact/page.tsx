@@ -14,19 +14,19 @@ const Contact: NextPage = () => {
     <Fragment>
       <PageProgress />
 
-      <header className="wrapper bg-soft-primary">
-        <Navbar />
+      <header className="wrapper">
+        <Navbar social navClassName="navbar navbar-expand-lg center-nav transparent navbar-light caret-none" />
       </header>
 
       <main className="content-wrapper">
         <section className="wrapper bg-soft-primary">
-          <div className="container py-14 py-md-16">
+          <div className="container py-pt pt-md-18">
             {/* ========== contact info section ========== */}
             <div className="row gx-md-8 gx-xl-12 gy-10 align-items-center">
               <ContactTiles />
 
               <div className="col-lg-5">
-                <h2 className="display-4 mb-8">Got any questions? Don't hesitate to get in touch.</h2>
+                <h2 className="display-4 mb-8">Ready to discuss your fire and security needs? We're here to help.</h2>
                 <div className="d-flex flex-row">
                   <div>
                     <div className="icon text-primary fs-28 me-6 mt-n1">
@@ -37,8 +37,8 @@ const Contact: NextPage = () => {
                   <div>
                     <h5 className="mb-1">Address</h5>
                     <address>
-                     2 Salinger walk Spalding <br className="d-none d-md-block" />
-                      London, United Kingdom
+                      56, Boater Drive, Houghton Regis <br className="d-none d-md-block" />
+                      Luton LU5 6SQ, United Kingdom
                     </address>
                   </div>
                 </div>
@@ -52,11 +52,11 @@ const Contact: NextPage = () => {
 
                   <div>
                     <h5 className="mb-1">Phone</h5>
-                    <p>+44 07466825028
+                    <p>+44 07392 463 265 , 07442 055 760
                       <br className="d-none d-md-block" />
-                  
+
                     </p>
-              
+
                   </div>
                 </div>
 
@@ -70,8 +70,8 @@ const Contact: NextPage = () => {
                   <div>
                     <h5 className="mb-1">E-mail</h5>
                     <p className="mb-0">
-                      <a href="mailto:info@ivera.co.uk" className="link-body">
-                      info@ivera.co.uk                      </a>
+                      <a href="mailto:info@isecuk.com" className="link-body">
+                        info@isecuk.com, abiodunoyenigba@isecuk.com                 </a>
                     </p>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ const Contact: NextPage = () => {
 
             {/* ========== contact form section ========== */}
             <div className="row mt-8">
-              <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+              <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 mb-14">
                 <h2 className="display-4 mb-3 text-center">Drop Us a Line</h2>
                 <p className="lead text-center mb-10">
                   Reach out to us from our contact form and we will get back to you shortly.

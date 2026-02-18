@@ -73,10 +73,7 @@ const ContactForm: FC = () => {
         </div>
 
         <div className="col-12 text-center">
-          <input type="button" value="Send message" className="btn text-white bg__purple rounded-pill btn-send mb-3" />
-          <p className="text-muted">
-            <strong>*</strong> These fields are required.
-          </p>
+          <input type="button" value="Send message" className="btn btn-lg btn-gradient gradient-1 rounded  mb-3" />
         </div>
       </div>
     </form>
